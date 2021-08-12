@@ -8,18 +8,22 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Import materialize.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="assets/style.css">
         <title>McHardy Portfolio</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/images/115-moscovium.png"/>
     </head>
+
     <body>
         
         <nav>
-            <div class="nav-wrapper cyan darken-4">
+            <div class="nav-wrapper light-blue darken-4">
                 <a href="#" class="brand-logo"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Work</a></li>
-                <li><a href="badges.html">About</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
+                <ul id="nav-mobile" class="right">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- use a dropdown instead of href for contact -->
+                <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,139 +32,145 @@
             <h3>Shelley McHardy</h3>
             <h6>chemistry teacher & aspiring full stack web developer</h6>
             <figure>
-              <img src="images/molecule.png" alt="3-D molecule">
+              <img src="assets/images/molecule.png" alt="3-D molecule">
             </figure>
         </div>
 
-        <div class="card-container">
-              <div class="row">
+        <div class="project-container">
+          <div class="row">
+            <div class="carousel" id="work">
+              <a class="carousel-item" id="one" href="#one!"><img src="assets/images/toolin-around.png"></a>
+              <a class="carousel-item" id="two" href="#two!"><img src="assets/images/e-commerce.png"></a>
+              <a class="carousel-item" id="three" href="#three!"><img src="assets/images/getHAPI.png"></a>
+              <a class="carousel-item" id="four" href="#four!"><img src="assets/images/readme.png"></a>
+              <a class="carousel-item" id="five" href="#five!"><img src="assets/images/rps.png"></a>
+            </div>
 
-                <div class="col s12">
-                  <div class="carousel">
-                    <div class="card carousel-item sticky-action">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/readme-generator.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>A community toolshed platform that allows neighbors to post and borrow tools from one another.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">The App</a>
-                        <a href="#">The Repo</a>
-                      </div>
-                    </div>
-
-                    <div class="card carousel-item sticky-action">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/readme-generator.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>A community toolshed platform that allows neighbors to post and borrow tools from one another.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">The App</a>
-                        <a href="#">The Repo</a>
-                      </div>
-                    </div>
-
-                    <div class="card carousel-item sticky-action">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/readme-generator.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>A community toolshed platform that allows neighbors to post and borrow tools from one another.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">The App</a>
-                        <a href="#">The Repo</a>
-                      </div>
-                    </div>
-
-                    <div class="card carousel-item sticky-action">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/readme-generator.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>A community toolshed platform that allows neighbors to post and borrow tools from one another.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">The App</a>
-                        <a href="#">The Repo</a>
-                      </div>
-                    </div>
-
-                    <div class="card carousel-item sticky-action">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/readme-generator.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>A community toolshed platform that allows neighbors to post and borrow tools from one another.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">The App</a>
-                        <a href="#">The Repo</a>
-                      </div>
-                    </div>
-
+            <div class="col s12 m6 offset-m3 project hide" id="project-one">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/toolin-around.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5>Toolin' Around</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information.</p>
                   </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
               </div>
+            </div>
 
+            <div class="col s12 m6 offset-m3 project hide" id="project-two">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/e-commerce.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5>E-Commerce Back End</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col s12 m6 offset-m3 project hide" id="project-three">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/getHAPI.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5>Project getHAPI</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 offset-m3 project hide" id="project-four">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/readme.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5>README Generator</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 offset-m3 project hide" id="project-five">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="assets/images/rps.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5>Rock/Paper/Scissors</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information. I am a very simple card. I am good at containing small bits of information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
-          <footer class="page-footer cyan darken-4">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12 offset-l2">
-                  <h5 class="white-text">About Me</h5>
-                  <p class="grey-text text-lighten-4">Passionate about science, education, and technology, I believe that you never stop learning. And I am committed to helping make the web a more beautiful place to learn.</p>
-                  <p class="grey-text text-lighten-4">Originally from San Francisco, I moved to Atlanta for a job teaching chemistry. I loved it enough that I thought I might be able to handle the summer heat for at least a couple years. Then I discovered Dragon Con, the amazing Georgia State Parks, and a group of nerdy friends. That was 2010. Summer is still too hot, but it's an OK trade. And I'm currently completing the Georgia Tech Full Stack Certification Bootcamp virtually, so I can avoid the worst of the heat.</p>
-                </div>
-                <div class="col l4 s12">
-                  <h5 class="white-text">Find Me</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright">
-              <div class="container center">
-              © 2021 Made with HTML, CSS, Materialize, & &#128155 by <strong>Shelley McHardy</strong>
 
+
+
+        <footer class="page-footer light-blue darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12 offset-l2">
+                <h5 class="white-text" id="about">About Me</h5>
+                <p class="grey-text text-lighten-4">Passionate about science, education, and technology, I believe that you never stop learning. And I am committed to helping make the web a more beautiful place to learn.</p>
+                <p class="grey-text text-lighten-4">Originally from San Francisco, I moved to Atlanta for a job teaching chemistry. I loved it enough that I thought I might be able to handle the summer heat for at least a couple years. Then I discovered Dragon Con, the amazing Georgia State Parks, and a group of nerdy friends. That was 2010. Summer is still too hot, but it's an OK trade. And I'm currently completing the Georgia Tech Full Stack Certification Bootcamp virtually, so I am able to avoid the worst of the heat.</p>
+              </div>
+              <div class="col l4 s12">
+                <h5 class="white-text" id="contact">Find Me</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Resume</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
+                </ul>
               </div>
             </div>
-          </footer>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2021 Made with HTML, JavaScript, Materialize, & &#128155 by <strong>Shelley McHardy</strong>
+
+            </div>
+          </div>
+        </footer>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script>
-          $(document).ready(function(){
-            $('.carousel').carousel();
-          });
-        </script>
+        <script src="assets/script.js"></script>
     </body>
 </html>

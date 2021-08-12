@@ -10,6 +10,11 @@ figure {
     margin-bottom: -5rem;
 }
 
-.card-container {
+.project-container {
     background-color: #fff8e1;
 }
+
+.hide {
+    display: none;
+}
+
