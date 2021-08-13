@@ -1,5 +1,9 @@
+nav {
+    background-color: #145c74;
+}
+
 body {
-    background-color: #ffd54f;
+    background-color: #ffe082;
 }
 
 .header {
@@ -7,14 +11,15 @@ body {
 }
 
 figure {
-    margin-bottom: -5rem;
+    margin-bottom: -6rem;
 }
 
 .project-container {
     background-color: #fff8e1;
+    padding-top: 6rem;
 }
 
-.hide {
-    display: none;
+.page-footer {
+    background-color: #145c74;
 }
 

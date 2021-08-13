@@ -17,7 +17,7 @@
     <body>
         
         <nav>
-            <div class="nav-wrapper light-blue darken-4">
+            <div class="nav-wrapper">
                 <a href="#" class="brand-logo"></a>
                 <ul id="nav-mobile" class="right">
                 <li><a href="#work">Work</a></li>
@@ -28,7 +28,7 @@
             </div>
         </nav>
 
-        <div class="header amber lighten-2 center grey-text text-darken-4">
+        <div class="header amber lighten-3 center grey-text text-darken-4">
             <h3>Shelley McHardy</h3>
             <h6>chemistry teacher & aspiring full stack web developer</h6>
             <figure>
@@ -38,15 +38,7 @@
 
         <div class="project-container">
           <div class="row">
-            <div class="carousel" id="work">
-              <a class="carousel-item" id="one" href="#one!"><img src="assets/images/toolin-around.png"></a>
-              <a class="carousel-item" id="two" href="#two!"><img src="assets/images/e-commerce.png"></a>
-              <a class="carousel-item" id="three" href="#three!"><img src="assets/images/getHAPI.png"></a>
-              <a class="carousel-item" id="four" href="#four!"><img src="assets/images/readme.png"></a>
-              <a class="carousel-item" id="five" href="#five!"><img src="assets/images/rps.png"></a>
-            </div>
-
-            <div class="col s12 m6 offset-m3 project hide" id="project-one">
+            <div class="col s12 l6 offset-l3" id="work">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="assets/images/toolin-around.png">
@@ -63,84 +55,86 @@
                 </div>
               </div>
             </div>
-
-            <div class="col s12 m6 offset-m3 project hide" id="project-two">
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/e-commerce.png">
-                </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <h5>E-Commerce Back End</h5>
-                    <p>This back end for an e-commerce site allows a user to connect to a database, create and seed a development database, start the server, and sync the Sequelize models to MySQL database. Developed with JavaScript, Node.js, Express.js, MySQL, and Sequelize.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/shelleymcq/E-Commerce-Back-End" target="_blank">The Repo & Demo Video</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 offset-m3 project hide" id="project-three">
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/getHAPI.png">
-                </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <h5>Project getHAPI</h5>
-                    <p>When a user needs a pick-me-up, they are presented with the option to either get a random pick-me-up or select from three choices. Developed with HTML, JavaScript, CSS, and three APIs.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/shelleymcq/Project-getHAPI" target="_blank">The Repo</a>
-                    <a href="https://shelleymcq.github.io/Project-getHAPI" target="_blank">The App</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 offset-m3 project hide" id="project-four">
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/readme.png">
-                </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <h5>README Generator</h5>
-                    <p>This application will allow a user to create a professional README file from the command line. The inquirer npm package is used to prompt the user for project details and then a README file is generated</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/shelleymcq/README-Generator" target="_blank">The Repo & Demo Video</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 offset-m3 project hide" id="project-five">
-              <div class="card horizontal">
-                <div class="card-image">
-                  <img src="assets/images/rps.png">
-                </div>
-                <div class="card-stacked">
-                  <div class="card-content">
-                    <h5>Rock/Paper/Scissors</h5>
-                    <p>The classic game played against the computer. Developed with HTML, JavaScript, and Bulma.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/shelleymcq/Rock-Paper-Scissors" target="_blank">The Repo</a>
-                    <a href="https://shelleymcq.github.io/Rock-Paper-Scissors/" target="_blank">The App</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
-        </div>
 
+          <div class="row">
+            <!-- vertical card with sticky reveal -->
+            <div class="col s6 m3">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/e-commerce.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">E-Commerce Back End<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">E-Commerce Back End<i class="material-icons right">close</i></span>
+                  <p>This back end for an e-commerce site allows a user to connect to a database, create and seed a development database, start the server, and sync the Sequelize models to MySQL database. Developed with JavaScript, Node.js, Express.js, MySQL, and Sequelize.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/shelleymcq/E-Commerce-Back-End" target="_blank">The Repo & Demo Video</a>
+                </div>
+              </div>
+            </div>
 
+            <div class="col s6 m3">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/getHAPI.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Project getHAPI<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Project getHAPI<i class="material-icons right">close</i></span>
+                  <p>When a user needs a pick-me-up, they are presented with the option to either get a random pick-me-up or select from three choices. Developed with HTML, JavaScript, CSS, and three APIs.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/shelleymcq/Project-getHAPI" target="_blank">The Repo</a>
+                  <a href="https://shelleymcq.github.io/Project-getHAPI" target="_blank">The App</a>
+                </div>
+              </div>
+            </div>
 
+            <div class="col s6 m3">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/readme.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">README Generator<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">README Generator<i class="material-icons right">close</i></span>
+                  <p>This application will allow a user to create a professional README file from the command line. The inquirer npm package is used to prompt the user for project details and then a README file is generated</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/shelleymcq/README-Generator" target="_blank">The Repo & Demo Video</a>
+                </div>
+              </div>
+            </div>
 
-        <footer class="page-footer light-blue darken-4">
+            <div class="col s6 m3">
+              <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/rps.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Rock/Paper/Scissors<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Rock/Paper/Scissors<i class="material-icons right">close</i></span>
+                  <p>The classic game played against the computer. Developed with HTML, JavaScript, and Bulma.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/shelleymcq/Rock-Paper-Scissors" target="_blank">The Repo</a>
+                  <a href="https://shelleymcq.github.io/Rock-Paper-Scissors/" target="_blank">The App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <footer class="page-footer">
           <div class="container">
             <div class="row">
               <div class="col s3 m3 l3">
@@ -164,14 +158,14 @@
           </div>
           <div class="footer-copyright">
             <div class="container center">
-            © 2021 Made with HTML, JavaScript, Materialize, & &#128155 by <strong>Shelley McHardy</strong>
+            © 2021 Made with HTML, JavaScript, Materialize, & &#129505 by <strong>Shelley McHardy</strong>
 
             </div>
           </div>
         </footer>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="assets/script.js"></script>
+
     </body>
 </html>
