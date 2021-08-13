@@ -13,6 +13,7 @@ An updated portfolio showcasing my increasing knowledge of web development tools
 #### _Deployed App_
 https://shelleymcq.github.io/Updated-Portfolio/
 
+![screenshot](/assets/images/portfolio-desktop.png)
 ## Skills
 * HTML
 * CSS, Bulma, Materialize
