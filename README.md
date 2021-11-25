@@ -19,14 +19,18 @@ https://shelleymcq.github.io/Updated-Portfolio/
 * CSS, Bulma, Materialize
 * JavaScript
 * JQuery
-* Node.js
+* NodeKS
 * Inquirer
-* Express.js
+* ExpressJS
 * Postman
 * MySQL
 * MySQL Workbench
 * Sequelize
-* Handlebars.js
+* Handlebars
+* MongoDB
+* Mongoose
+* React
+* Apollo Server Express
 
 ## Questions 
 #### To contribute, please contact me by email.
