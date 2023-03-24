@@ -1,9 +1,16 @@
  
 # Professional Portfolio
-## Licensing:
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## _Outdated Portfolio_
+_This portfolio was built during my full stack bootcamp in 2021. To see how far I've come, visit my [current portfolio repo](https://github.com/shelleymcq/mcq-portfolio)._
+
+---
+
 ## Description
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An updated portfolio showcasing my increasing knowledge of web development tools.
+
 ## Table of Contents
 * [Usage](#Usage)
 * [Skills](#Skills)
